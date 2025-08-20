@@ -1,11 +1,11 @@
-# StartQuest: Machine Learning for Investment Prediction 🚀
+# StartQuest: Machine Learning for Investment Prediction 
 
 ## Overview
 **StartQuest** is a machine learning project designed to identify and predict promising investment opportunities by analyzing historical financial time series data and deriving key financial metrics. This repository showcases a complete end-to-end pipeline, from data ingestion and sophisticated feature engineering to robust model training using a Random Forest Classifier and a simplified back-testing framework. While this version uses public stock data for demonstration, its architecture is built to be adaptable for private startup investment analysis.
 
 ---
 
-## Features ✨
+## Features 
 * **Data Ingestion (`src/data_ingestion.py`):**
     * **Automated Data Fetching:** Seamlessly pulls historical stock market data for a list of specified tickers using the powerful `yfinance` library.
     * **Scalable Design:** Structured to integrate with more diverse data sources, including potential web scraping (via `BeautifulSoup` and `requests`) for non-public startup information or proprietary financial databases.
@@ -56,7 +56,7 @@ To get this project up and running on your local machine, follow these steps:
 
 ---
 
-## Usage Guide 🚀
+## Usage Guide 
 Follow these steps to run the investment prediction pipeline:
 
 1.  **Prepare your Company List:**
@@ -87,7 +87,7 @@ Follow these steps to run the investment prediction pipeline:
 
 ---
 
-## Project Structure 📁
+## Project Structure 
 The repository is organized into logical directories to ensure modularity and ease of maintenance:
 
 ├── data/                       # Stores all input and output data
@@ -110,7 +110,7 @@ The repository is organized into logical directories to ensure modularity and ea
 
 ---
 
-## Dependencies 📋
+## Dependencies 
 All required Python libraries are listed in `requirements.txt`. Key dependencies include:
 * `pandas`: For data manipulation and analysis.
 * `numpy`: For numerical operations.
@@ -121,7 +121,7 @@ All required Python libraries are listed in `requirements.txt`. Key dependencies
 
 ---
 
-## Future Enhancements 📈
+## Future Enhancements 
 This project serves as a strong foundation, and there are many avenues for further development:
 
 * **Advanced Data Integration:**
