@@ -30,7 +30,7 @@
 
 ---
 
-## Setup and Installation 🛠️
+## Setup and Installation 
 To get this project up and running on your local machine, follow these steps:
 
 1.  **Clone the Repository:**
